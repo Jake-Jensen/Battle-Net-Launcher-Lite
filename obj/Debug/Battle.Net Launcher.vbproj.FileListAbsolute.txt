@@ -1,0 +1,15 @@
+c:\users\sapphire.desktop-aj5a4gn\documents\visual studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\bin\Debug\Battle.Net Launcher.exe.config
+c:\users\sapphire.desktop-aj5a4gn\documents\visual studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Debug\Battle.Net Launcher.vbprojResolveAssemblyReference.cache
+c:\users\sapphire.desktop-aj5a4gn\documents\visual studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Debug\Battle.Net_Launcher.LauncherForm.resources
+c:\users\sapphire.desktop-aj5a4gn\documents\visual studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Debug\Battle.Net_Launcher.Resources.resources
+c:\users\sapphire.desktop-aj5a4gn\documents\visual studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Debug\Battle.Net Launcher.vbproj.GenerateResource.Cache
+c:\users\sapphire.desktop-aj5a4gn\documents\visual studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Debug\Battle.Net Launcher.xml
+c:\users\sapphire.desktop-aj5a4gn\documents\visual studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\bin\Debug\Battle.Net Launcher.exe
+c:\users\sapphire.desktop-aj5a4gn\documents\visual studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\bin\Debug\Battle.Net Launcher.pdb
+c:\users\sapphire.desktop-aj5a4gn\documents\visual studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\bin\Debug\Battle.Net Launcher.xml
+c:\users\sapphire.desktop-aj5a4gn\documents\visual studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Debug\Battle.Net Launcher.exe
+c:\users\sapphire.desktop-aj5a4gn\documents\visual studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Debug\Battle.Net Launcher.pdb
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\bin\Debug\Battle.Net Launcher.exe.manifest
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\bin\Debug\Battle.Net Launcher.application
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Debug\Battle.Net Launcher.exe.manifest
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Debug\Battle.Net Launcher.application
