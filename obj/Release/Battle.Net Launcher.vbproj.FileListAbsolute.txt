@@ -1,0 +1,16 @@
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\bin\Release\Battle.Net Launcher.exe.config
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\bin\Release\Battle.Net Launcher.exe.manifest
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\bin\Release\Battle.Net Launcher.application
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\bin\Release\Battle.Net Launcher.exe
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\bin\Release\Battle.Net Launcher.pdb
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\bin\Release\Battle.Net Launcher.xml
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Release\Battle.Net_Launcher.LauncherForm.resources
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Release\Battle.Net_Launcher.Resources.resources
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Release\Battle.Net Launcher.vbproj.GenerateResource.Cache
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Release\Battle.Net Launcher.exe.manifest
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Release\Battle.Net Launcher.application
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Release\Battle.Net Launcher.exe
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Release\Battle.Net Launcher.xml
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Release\Battle.Net Launcher.pdb
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Release\Battle.Net_Launcher.Form2.resources
+C:\Users\Sapphire.DESKTOP-AJ5A4GN\Documents\Visual Studio 2015\Projects\Battle.Net Launcher\Battle.Net Launcher\obj\Release\Battle.Net_Launcher.Form3.resources

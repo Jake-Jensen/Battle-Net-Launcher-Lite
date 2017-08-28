@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Battle.Net Launcher.exe" size="692736">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Battle.Net Launcher.exe" size="2487808">
       <assemblyIdentity name="Battle.Net Launcher" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ViswNclvlOgylsF4lGjGftRShD1nj9CEgg2ft9NYp2s=</dsig:DigestValue>
+        <dsig:DigestValue>kwwXTs1pSdCeuUiLBf5lBzw5SCO0UPsUswArwLSmscU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -22,5 +22,35 @@ Battle.Net Launcher
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Battle.Net_Launcher.My.Resources.Resources.background_sc2_hots">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Battle.Net_Launcher.My.Resources.Resources.background_sc2_wol">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Battle.Net_Launcher.My.Resources.Resources.background_wow_bc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Battle.Net_Launcher.My.Resources.Resources.background_wow_mop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Battle.Net_Launcher.My.Resources.Resources.Baneling">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Battle.Net_Launcher.My.Resources.Resources.Zergling">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>
