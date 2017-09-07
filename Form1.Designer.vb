@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class LauncherForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class LauncherForm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(LauncherForm))
@@ -47,6 +47,8 @@ Partial Class LauncherForm
         Me.KillBW = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Changelog = New System.Windows.Forms.Button()
+        Me.UpdateButton = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'StarCraftButton
@@ -281,6 +283,24 @@ Partial Class LauncherForm
         Me.Changelog.Text = "Changelog"
         Me.Changelog.UseVisualStyleBackColor = True
         '
+        'UpdateButton
+        '
+        Me.UpdateButton.Location = New System.Drawing.Point(866, 9)
+        Me.UpdateButton.Name = "UpdateButton"
+        Me.UpdateButton.Size = New System.Drawing.Size(127, 33)
+        Me.UpdateButton.TabIndex = 26
+        Me.UpdateButton.Text = "Update"
+        Me.UpdateButton.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(710, 9)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(150, 33)
+        Me.Button2.TabIndex = 27
+        Me.Button2.Text = "Developer Version Notice"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'LauncherForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
@@ -290,6 +310,8 @@ Partial Class LauncherForm
         Me.BackgroundImage = Global.Battle.Net_Launcher.My.Resources.Resources.background_wow_bc
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1226, 688)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.UpdateButton)
         Me.Controls.Add(Me.Changelog)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.KillBW)
@@ -315,7 +337,7 @@ Partial Class LauncherForm
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximumSize = New System.Drawing.Size(1242, 727)
         Me.Name = "LauncherForm"
-        Me.Text = "Sapphire's Launcher (v1.01)"
+        Me.Text = "Sapphire's Launcher (v1.10)"
         Me.ResumeLayout(False)
 
     End Sub
@@ -343,4 +365,6 @@ Partial Class LauncherForm
     Friend WithEvents KillBW As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Changelog As Button
+    Friend WithEvents UpdateButton As Button
+    Friend WithEvents Button2 As Button
 End Class

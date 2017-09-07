@@ -24,7 +24,7 @@ Partial Class Form3
     Private Sub InitializeComponent()
         Me.OneZeroZero = New System.Windows.Forms.Label()
         Me.OneZeroOne = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.OneOneZero = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -59,18 +59,18 @@ Partial Class Form3
         Me.OneZeroOne.Text = "1.01"
         Me.OneZeroOne.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label2
+        'OneOneZero
         '
-        Me.Label2.BackColor = System.Drawing.Color.Black
-        Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(12, 74)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(100, 23)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "TBD"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.OneOneZero.BackColor = System.Drawing.Color.Black
+        Me.OneOneZero.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.OneOneZero.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.OneOneZero.ForeColor = System.Drawing.Color.White
+        Me.OneOneZero.Location = New System.Drawing.Point(12, 74)
+        Me.OneOneZero.Name = "OneOneZero"
+        Me.OneOneZero.Size = New System.Drawing.Size(100, 23)
+        Me.OneOneZero.TabIndex = 2
+        Me.OneOneZero.Text = "1.10"
+        Me.OneOneZero.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label3
         '
@@ -130,7 +130,7 @@ Partial Class Form3
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.OneOneZero)
         Me.Controls.Add(Me.OneZeroOne)
         Me.Controls.Add(Me.OneZeroZero)
         Me.MaximumSize = New System.Drawing.Size(671, 720)
@@ -143,7 +143,7 @@ Partial Class Form3
 
     Friend WithEvents OneZeroZero As Label
     Friend WithEvents OneZeroOne As Label
-    Friend WithEvents Label2 As Label
+    Friend WithEvents OneOneZero As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label

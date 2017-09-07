@@ -22,6 +22,7 @@
         WoWLaunchButton.Visible = False
         BroodLauncher.Visible = False
         BroodNotice.Visible = False
+        MsgBox("Graphics are temporary until some custom artwork can be used, until then, generic images will be used.")
 
     End Sub
 
@@ -124,7 +125,11 @@ MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk)
     End Sub
 
     Private Sub BroodLauncher_Click(sender As Object, e As EventArgs) Handles BroodLauncher.Click
-        System.Diagnostics.Process.Start("C:\Program Files (x86)\StarCraft\StarCraft Launcher.exe")
+        If My.Computer.FileSystem.FileExists("C:\Program Files (x86)\Starcraft\StarCraft Launcher.exe") Then
+            System.Diagnostics.Process.Start("C:\Program Files (x86)\StarCraft\StarCraft Launcher.exe")
+        Else
+            MsgBox("Brood War not found!")
+        End If
     End Sub
 
     Private Sub BroodNotice_Click(sender As Object, e As EventArgs) Handles BroodNotice.Click
@@ -133,8 +138,29 @@ MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk)
     End Sub
 
     Private Sub WoWLaunchButton_Click(sender As Object, e As EventArgs) Handles WoWLaunchButton.Click
-        MessageBox.Show("Not yet implemented/ We both know you don't have it installed.", "World of Warcraft",
-MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk)
+        If My.Computer.FileSystem.FileExists("C:\Program Files (x86)\World of Warcraft\WoW-64.exe") Then
+            System.Diagnostics.Process.Start("C:\Program Files (x86)\World of Warcraft\WoW-64.exe")
+        Else
+            MsgBox("Wow not found!")
+        End If
+    End Sub
+
+    Private Sub Button7_Click_1(ByVal sender As System.Object, 'Launches the application using HoTS's switcher.
+    ByVal e As System.EventArgs) Handles HeroesLaunchButton.Click
+        If My.Computer.FileSystem.FileExists("C:\Program Files (x86)\Heroes of the Storm\Support64\HeroesSwitcher_x64.exe") Then
+            System.Diagnostics.Process.Start("C:\Program Files (x86)\Heroes of the Storm\Support64\HeroesSwitcher_x64.exe")
+        Else
+            MsgBox("HoTS not found!")
+        End If
+    End Sub
+
+    Private Sub Button6_Click(ByVal sender As System.Object, 'Launches the application using SC2's switcher.
+    ByVal e As System.EventArgs) Handles StarCraftLaunchButton.Click
+        If My.Computer.FileSystem.FileExists("C:\Program Files (x86)\StarCraft II\Support64\SC2Switcher_x64.exe") Then
+            System.Diagnostics.Process.Start("C:\Program Files (x86)\StarCraft II\Support64\SC2Switcher_x64.exe")
+        Else
+            MsgBox("SC2 not found!")
+        End If
     End Sub
 
     Private Sub KillWoW_Click(sender As Object, e As EventArgs) Handles KillWoW.Click
@@ -151,18 +177,6 @@ MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk)
         Call CheckIfRunning1()
     End Sub
 
-    Private Sub Button7_Click_1(ByVal sender As System.Object, 'Launches the application using HoTS's switcher.
-    ByVal e As System.EventArgs) Handles HeroesLaunchButton.Click
-        System.Diagnostics.Process.Start("C:\Program Files (x86)\Heroes of the Storm\Support64\HeroesSwitcher_x64.exe")
-        Call CheckIfRunning1() 'Skips waiting for the timer and calls the status checker immediately after launching. 
-    End Sub
-
-    Private Sub Button6_Click(ByVal sender As System.Object, 'Launches the application using SC2's switcher.
-    ByVal e As System.EventArgs) Handles StarCraftLaunchButton.Click
-        System.Diagnostics.Process.Start("C:\Program Files (x86)\StarCraft II\Support64\SC2Switcher_x64.exe")
-        Call CheckIfRunning1() 'Skips waiting for the timer and calls the status checker immediately after launching.
-    End Sub
-
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
         Form2.Show()
         MessageBox.Show("The wikia is still in early development; Some graphics may be generic, and some data may not be available.", "Wikia Notice",
@@ -171,5 +185,14 @@ MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk)
 
     Private Sub Changelog_Click(sender As Object, e As EventArgs) Handles Changelog.Click
         Form3.Show()
+    End Sub
+
+    Private Sub UpdateButton_Click(sender As Object, e As EventArgs) Handles UpdateButton.Click
+        MessageBox.Show("The updater has been overhauled. Now requires manual interaction via the git page", "Update Notice", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk)
+        Process.Start("https://github.com/SapphireExile/Battle-Net-Launcher-Lite/blob/master/SapphiresLauncher.exe")
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        MessageBox.Show("Developer version 0.1 of release candidate 1.10" & vbNewLine & "This version is hardcoded to use C:\Program Files(X86)\ for game paths. If your games aren't installed here, this version will not launch them, while the killswitches will still work.", "Dev Notice", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk)
     End Sub
 End Class
