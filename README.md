@@ -6,7 +6,8 @@ Download Sapphire's Launcher.exe
 </br> Run
 
 # Compiling instructions
-Download your selective OS branch (Windows for Windows, Linux/GNU for Ubuntu, MacOS for MacOS)
+Download your selective OS branch (Windows for Windows, Linux/GNU for Ubuntu, MacOS for MacOS
+(Currently on available for Windows)
 </br> Open the .sln file with Visual Studio
 </br> Click "Build" in the top bar of Visual Studio
 </br> Exit and run the now compiled .exe
